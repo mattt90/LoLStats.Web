@@ -1,0 +1,11 @@
+﻿@using lol.Models.Player;
+@model SelectPlayerViewModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<form asp-controller="Player" asp-action="SelectPlayer" method="get">
+    Username:  <input asp-for="Username" /> <br />
+    <button type="submit">Find</button>
+</form>
