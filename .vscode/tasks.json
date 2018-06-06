@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/lol.csproj"
+                "${workspaceFolder}/src/LoLStats.Web.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
